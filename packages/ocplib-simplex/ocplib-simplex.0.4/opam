@@ -43,6 +43,6 @@ linear optimization."""
 flags: light-uninstall
 url {
   src:
-    "local/ocplib-simplex.0.4/v0.4.tar.gz"
+    "local/src/ocplib-simplex.0.4/v0.4.tar.gz"
   checksum: "md5=fbde2d7194acc0cda9f1b4511f4baa27"
 }
