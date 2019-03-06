@@ -19,6 +19,6 @@ depends: [
 synopsis: "Generate a list containing all values of a finite type"
 description: "Part of the Jane Street's PPX rewriters collection."
 url {
-  src: "https://github.com/janestreet/ppx_enumerate/archive/v0.11.1.tar.gz"
+  src: "local/src/ppx_enumerate.v0.11.1/v0.11.1.tar.gz"
   checksum: "md5=25107fc78678dc46058aa5d3a7f3ab84"
 }

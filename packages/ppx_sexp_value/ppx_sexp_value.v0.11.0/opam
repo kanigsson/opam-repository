@@ -21,7 +21,6 @@ synopsis:
   "A ppx rewriter that simplifies building s-expressions from ocaml values"
 description: "Part of the Jane Street's PPX rewriters collection."
 url {
-  src:
-    "https://ocaml.janestreet.com/ocaml-core/v0.11/files/ppx_sexp_value-v0.11.0.tar.gz"
+  src: "local/src/ppx_sexp_value.v0.11.0/ppx_sexp_value-v0.11.0.tar.gz"
   checksum: "md5=28375d3b4bf5cda71b9260d20e5c3d34"
 }

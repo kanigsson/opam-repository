@@ -16,7 +16,6 @@ depends: [
 ]
 synopsis: "typerep is a library for runtime types."
 url {
-  src:
-    "https://ocaml.janestreet.com/ocaml-core/v0.11/files/typerep-v0.11.0.tar.gz"
+  src: "local/src/typerep.v0.11.0/typerep-v0.11.0.tar.gz"
   checksum: "md5=9d7500376ac660c1427137310fabe9da"
 }

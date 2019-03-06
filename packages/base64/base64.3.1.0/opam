@@ -28,7 +28,6 @@ build: [
   ["dune" "runtest" "-p" name] {with-test}
 ]
 url {
-  src:
-    "https://github.com/mirage/ocaml-base64/releases/download/v3.1.0/base64-v3.1.0.tbz"
+  src: "local/src/base64.3.1.0/base64-v3.1.0.tbz"
   checksum: "md5=9847073feb4272e513d8c832904e1af7"
 }

@@ -31,7 +31,6 @@ Pure OCaml regular expressions with:
 * Shell-style file globbing (module Re.Glob)
 * Compatibility layer for OCaml's built-in Str module (module Re.Str)"""
 url {
-  src:
-    "https://github.com/ocaml/ocaml-re/releases/download/1.8.0/re-1.8.0.tbz"
+  src: "local/src/re.1.8.0/re-1.8.0.tbz"
   checksum: "md5=765f6f8d3e6ab200866e719ed7e5178d"
 }

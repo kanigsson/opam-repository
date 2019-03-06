@@ -27,7 +27,6 @@ Configurator allows one to:
 - import #define from OCaml header files
 - generate config.h file"""
 url {
-  src:
-    "https://ocaml.janestreet.com/ocaml-core/v0.11/files/configurator-v0.11.0.tar.gz"
+  src: "local/src/configurator.v0.11.0/configurator-v0.11.0.tar.gz"
   checksum: "md5=55511f3ea8e3d66439910b3324701218"
 }

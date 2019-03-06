@@ -20,7 +20,6 @@ Stdio implements simple input/output functionalities for OCaml.
 It re-exports the input/output functions of the OCaml standard
 libraries using a more consistent API."""
 url {
-  src:
-    "https://ocaml.janestreet.com/ocaml-core/v0.11/files/stdio-v0.11.0.tar.gz"
+  src: "local/src/stdio.v0.11.0/stdio-v0.11.0.tar.gz"
   checksum: "md5=2db42ee38c91b3ff7126c2634c407b99"
 }

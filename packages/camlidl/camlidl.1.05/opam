@@ -32,7 +32,6 @@ extra-files: [
   ["META" "md5=66b8e0b9187f7b2d25301e431ff779d9"]
 ]
 url {
-  src:
-    "http://caml.inria.fr/pub/old_caml_site/distrib/bazar-ocaml/camlidl-1.05.tar.gz"
+  src: "local/src/camlidl.1.05/camlidl-1.05.tar.gz"
   checksum: "md5=4cfb863bc3cbdc1af2502042c45cc675"
 }

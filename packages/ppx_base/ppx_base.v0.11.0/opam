@@ -27,7 +27,6 @@ ppx_base is the set of ppx rewriters used for Base.
 Note that Base doesn't need ppx to build, it is only used as a
 verification tool."""
 url {
-  src:
-    "https://ocaml.janestreet.com/ocaml-core/v0.11/files/ppx_base-v0.11.0.tar.gz"
+  src: "local/src/ppx_base.v0.11.0/ppx_base-v0.11.0.tar.gz"
   checksum: "md5=a0020fbf308592aa71932bea8135fac5"
 }

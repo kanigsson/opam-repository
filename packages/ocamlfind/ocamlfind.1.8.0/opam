@@ -58,7 +58,7 @@ extra-files: [
   ["ocaml-stub" "md5=181f259c9e0bad9ef523e7d4abfdf87a"]
 ]
 url {
-  src: "http://download.camlcity.org/download/findlib-1.8.0.tar.gz"
+  src: "local/src/ocamlfind.1.8.0/findlib-1.8.0.tar.gz"
   checksum: "md5=a710c559667672077a93d34eb6a42e5b"
   mirrors: "http://download2.camlcity.org/download/findlib-1.8.0.tar.gz"
 }

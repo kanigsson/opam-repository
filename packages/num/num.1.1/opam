@@ -38,6 +38,6 @@ extra-files: [
   ["findlib-install.patch" "md5=3163a4c3f8dd084653eeb64d95311a2a"]
 ]
 url {
-  src: "https://github.com/ocaml/num/archive/v1.1.tar.gz"
+  src: "local/src/num.1.1/v1.1.tar.gz"
   checksum: "md5=710cbe18b144955687a03ebab439ff2b"
 }

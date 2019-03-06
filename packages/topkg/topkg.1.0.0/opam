@@ -44,6 +44,6 @@ Topkg-care is distributed under the ISC license it depends on
 [webbrowser]: http://erratique.ch/software/webbrowser
 """
 url {
-src: "http://erratique.ch/software/topkg/releases/topkg-1.0.0.tbz"
+src: "local/src/topkg.1.0.0/topkg-1.0.0.tbz"
 checksum: "md5=e3d76bda06bf68cb5853caf6627da603"
 }

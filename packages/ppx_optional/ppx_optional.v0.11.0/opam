@@ -21,7 +21,6 @@ description: """
 A ppx rewriter that rewrites simple match statements with an if then
 else expression."""
 url {
-  src:
-    "https://ocaml.janestreet.com/ocaml-core/v0.11/files/ppx_optional-v0.11.0.tar.gz"
+  src: "local/src/ppx_optional.v0.11.0/ppx_optional-v0.11.0.tar.gz"
   checksum: "md5=27bcae8445af584299876bdab0288152"
 }

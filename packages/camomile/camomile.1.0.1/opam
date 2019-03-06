@@ -21,7 +21,6 @@ type, UTF-8, UTF-16, UTF-32 strings, conversion to/from about 200 encodings,
 collation and locale-sensitive case mappings, and more. The library is currently
 designed for Unicode Standard 3.2."""
 url {
-  src:
-    "https://github.com/yoriyuki/Camomile/releases/download/1.0.1/camomile-1.0.1.tbz"
+  src: "local/src/camomile.1.0.1/camomile-1.0.1.tbz"
   checksum: "md5=82e016653431353a07f22c259adc6e05"
 }

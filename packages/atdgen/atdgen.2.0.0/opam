@@ -39,6 +39,6 @@ Atdgen was designed with efficiency and durability in mind. Software authors
 are encouraged to use Atdgen directly and to write tools that may reuse part of
 Atdgen’s source code."""
 url {
-  src: "https://github.com/mjambon/atd/releases/download/2.0.0/atd-2.0.0.tbz"
+  src: "local/src/atdgen.2.0.0/atd-2.0.0.tbz"
   checksum: "md5=14e47609397c524ea0eae7c3f14f7ccf"
 }

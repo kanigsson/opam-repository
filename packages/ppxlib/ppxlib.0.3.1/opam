@@ -32,6 +32,6 @@ A comprehensive toolbox for ppx development. It features:
 """
 
 url {
-  src: "https://github.com/ocaml-ppx/ppxlib/releases/download/0.3.1/ppxlib-0.3.1.tbz"
+  src: "local/src/ppxlib.0.3.1/ppxlib-0.3.1.tbz"
   checksum: ["md5=d83dd03bc744651d4642b84063bffcf9"]
 }

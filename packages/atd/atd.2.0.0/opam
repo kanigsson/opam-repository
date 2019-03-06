@@ -29,6 +29,6 @@ various utilities. ATD stands for Adjustable Type Definitions in
 reference to its main property of supporting annotations that allow a
 good fit with a variety of data formats."""
 url {
-  src: "https://github.com/mjambon/atd/releases/download/2.0.0/atd-2.0.0.tbz"
+  src: "local/src/atd.2.0.0/atd-2.0.0.tbz"
   checksum: "md5=14e47609397c524ea0eae7c3f14f7ccf"
 }

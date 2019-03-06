@@ -25,7 +25,6 @@ ANSITerminal is a module allowing to use the colors and cursor
 movements on ANSI terminals. It also works on the windows shell (but
 this part is currently work in progress)."""
 url {
-  src:
-    "https://github.com/Chris00/ANSITerminal/releases/download/0.8.1/ANSITerminal-0.8.1.tbz"
+  src: "local/src/ANSITerminal.0.8.1/ANSITerminal-0.8.1.tbz"
   checksum: "md5=d9909496b5e47c75227453256198d1ae"
 }

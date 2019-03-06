@@ -45,6 +45,6 @@ and to learn: ppx rewriters and extension points."""
 conflicts: ["ocaml-system"]
 flags: light-uninstall
 url {
-  src: "https://github.com/ocaml/camlp4/archive/4.07+1.tar.gz"
+  src: "local/src/camlp4.4.07+1/4.07+1.tar.gz"
   checksum: "md5=6b13df04b55eca41facf11eb0f099bd6"
 }

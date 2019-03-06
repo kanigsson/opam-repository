@@ -29,6 +29,6 @@ synopsis:
   "Provides easy access to compressed files in ZIP, GZIP and JAR format"
 flags: light-uninstall
 url {
-  src: "https://github.com/xavierleroy/camlzip/archive/rel107.zip"
+  src: "local/src/camlzip.1.07/rel107.zip"
   checksum: "md5=fb6b251fe6bf129cb25b5fd9f5938514"
 }

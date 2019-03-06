@@ -16,6 +16,6 @@ depends: [
 synopsis: "Tools for authors of ppx rewriters and other syntactic tools"
 flags: light-uninstall
 url {
-  src: "https://github.com/ocaml-ppx/ppx_tools/archive/5.1+4.06.0.tar.gz"
+  src: "local/src/ppx_tools.5.1+4.06.0/5.1+4.06.0.tar.gz"
   checksum: "md5=6ba2e9690b1f579ba562b86022d1c308"
 }

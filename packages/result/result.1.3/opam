@@ -16,7 +16,6 @@ Projects that want to use the new result type defined in OCaml >= 4.03
 while staying compatible with older version of OCaml should use the
 Result module defined in this library."""
 url {
-  src:
-    "https://github.com/janestreet/result/releases/download/1.3/result-1.3.tbz"
+  src: "local/src/result.1.3/result-1.3.tbz"
   checksum: "md5=4beebefd41f7f899b6eeba7414e7ae01"
 }

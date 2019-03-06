@@ -31,7 +31,6 @@ sqlite3-ocaml is an OCaml library with bindings to the SQLite3 client API.
 Sqlite3 is a self-contained, serverless, zero-configuration, transactional SQL
 database engine with outstanding performance for many use cases."""
 url {
-  src:
-    "https://github.com/mmottl/sqlite3-ocaml/releases/download/4.4.1/sqlite3-4.4.1.tbz"
+  src: "local/src/sqlite3.4.4.1/sqlite3-4.4.1.tbz"
   checksum: "md5=93763885a3606252aa8004f7662dd161"
 }

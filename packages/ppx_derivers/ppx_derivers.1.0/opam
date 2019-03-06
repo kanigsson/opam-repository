@@ -18,6 +18,6 @@ Ppx_derivers is a tiny package whose sole purpose is to allow
 ppx_deriving and ppx_type_conv to inter-operate gracefully when linked
 as part of the same ocaml-migrate-parsetree driver."""
 url {
-  src: "https://github.com/ocaml-ppx/ppx_derivers/archive/1.0.tar.gz"
+  src: "local/src/ppx_derivers.1.0/1.0.tar.gz"
   checksum: "md5=4ddce8f43fdb9b0ef0ab6a7cbfebc3e3"
 }

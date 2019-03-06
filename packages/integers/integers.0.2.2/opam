@@ -20,7 +20,6 @@ depends: [
 doc: "http://ocamllabs.github.io/ocaml-integers/api.docdir/"
 synopsis: "Various signed and unsigned integer types for OCaml"
 url {
-  src:
-    "https://github.com/ocamllabs/ocaml-integers/releases/download/v0.2.2/integers-0.2.2.tbz"
+  src: "local/src/integers.0.2.2/integers-0.2.2.tbz"
   checksum: "md5=ae226532930965fe0b43c02f2469cadc"
 }

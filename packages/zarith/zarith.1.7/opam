@@ -43,6 +43,6 @@ arithmetic over big integers. Small integers are represented as Caml
 unboxed integers, for speed and space economy."""
 flags: light-uninstall
 url {
-  src: "https://github.com/ocaml/Zarith/archive/release-1.7.tar.gz"
+  src: "local/src/zarith.1.7/release-1.7.tar.gz"
   checksum: "md5=80944e2755ebb848451a77dc2ad0651b"
 }

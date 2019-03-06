@@ -22,7 +22,6 @@ depends: [
 synopsis: "Assert-like extension nodes that raise useful errors on failure"
 description: "Part of the Jane Street's PPX rewriters collection."
 url {
-  src:
-    "https://ocaml.janestreet.com/ocaml-core/v0.11/files/ppx_assert-v0.11.0.tar.gz"
+  src: "local/src/ppx_assert.v0.11.0/ppx_assert-v0.11.0.tar.gz"
   checksum: "md5=0b3aed19391e9a23217a5abf022dfe10"
 }

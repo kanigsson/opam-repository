@@ -31,7 +31,6 @@ provided by companion libraries such as stdio:
 
   https://github.com/janestreet/stdio"""
 url {
-  src:
-    "https://github.com/janestreet/base/releases/download/v0.11.1/base-v0.11.1.tbz"
+  src: "local/src/base.v0.11.1/base-v0.11.1.tbz"
   checksum: "md5=e7e7dc5db3f1fea19d74a31bbd4ac621"
 }

@@ -30,6 +30,6 @@ parfold and parmapfold primitives in place of the standard List.map
 and friends, and specify the number of subprocesses to use by the
 optional parameter ~ncores."""
 url {
-  src: "https://github.com/rdicosmo/parmap/archive/1.0-rc10.tar.gz"
+  src: "local/src/parmap.1.0-rc10/1.0-rc10.tar.gz"
   checksum: "md5=399676835637c4af5835223d721c7d0f"
 }

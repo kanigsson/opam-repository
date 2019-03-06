@@ -18,6 +18,6 @@ depends: [
 ]
 synopsis: "Equivalent of the C preprocessor for OCaml programs"
 url {
-  src: "https://github.com/mjambon/cppo/archive/v1.6.5.tar.gz"
+  src: "local/src/cppo.1.6.5/v1.6.5.tar.gz"
   checksum: "md5=1cd25741d31417995b0973fe0b6f6c82"
 }

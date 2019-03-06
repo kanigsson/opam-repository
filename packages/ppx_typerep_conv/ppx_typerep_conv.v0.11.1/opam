@@ -19,7 +19,6 @@ depends: [
 synopsis: "Generation of runtime types from type declarations"
 description: "Part of the Jane Street's PPX rewriters collection."
 url {
-  src:
-    "https://github.com/janestreet/ppx_typerep_conv/archive/v0.11.1.tar.gz"
+  src: "local/src/ppx_typerep_conv.v0.11.1/v0.11.1.tar.gz"
   checksum: "md5=826e9daf00258184e3392c970fa7d616"
 }

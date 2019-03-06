@@ -29,7 +29,6 @@ depends: [
 synopsis: "Cram like framework for OCaml"
 description: "Part of the Jane Street's PPX rewriters collection."
 url {
-  src:
-    "https://github.com/janestreet/ppx_expect/releases/download/v0.11.1/ppx_expect-v0.11.1.tbz"
+  src: "local/src/ppx_expect.v0.11.1/ppx_expect-v0.11.1.tbz"
   checksum: "md5=ee5e03094674de295aadc10efe6bb7b7"
 }

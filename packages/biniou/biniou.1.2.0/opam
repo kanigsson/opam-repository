@@ -20,6 +20,6 @@ depends: [
 synopsis:
   "Binary data format designed for speed, safety, ease of use and backward compatibility as protocols evolve"
 url {
-  src: "https://github.com/mjambon/biniou/archive/v1.2.0.tar.gz"
+  src: "local/src/biniou.1.2.0/v1.2.0.tar.gz"
   checksum: "md5=f3e92358e832ed94eaf23ce622ccc2f9"
 }
