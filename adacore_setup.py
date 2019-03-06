@@ -9,7 +9,6 @@ args = None
 descr = """Setup an opam install"""
 
 local_regex = re.compile("src:\s*\"local")
-http_regex = re.compile("src:\s*\"http")
 
 def parse_arguments():
     global args
@@ -27,8 +26,7 @@ def parse_arguments():
     args = parser.parse_args()
 
 def replace_urls():
-    # TODO play around with OPAMFETCH variable inst
-    """point all urls in opam files to local download archive"""
+    """replace local links to point to current repos"""
     matches = []
     for root, dirnames, filenames in os.walk('packages'):
         for filename in filenames:
@@ -59,6 +57,7 @@ def opam_switch(arg):
 
 def opam_install(arg):
     subprocess.call(['opam', 'install', '-y', arg])
+
 def main():
     parse_arguments()
     clean()
