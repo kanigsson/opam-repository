@@ -67,7 +67,7 @@ def main():
     os.environ['OPAMROOT'] = args.installdir
     replace_urls()
     opam_init()
-    opam_switch('ocaml-variants.4.07.1+flambda')
+    opam_switch('ocaml-system.4.07.1')
 
     # why3 deps
     opam_install('menhir')
