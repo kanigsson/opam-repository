@@ -79,9 +79,9 @@ def main():
     opam_init()
     opam_switch('ocaml-system.4.07.1')
 
-    opam_install_deps('why3')
-    opam_install_deps('alt-ergo')
     opam_install_deps('infer')
+    opam_install_deps('alt-ergo')
+    opam_install_deps('why3')
 
 
 
