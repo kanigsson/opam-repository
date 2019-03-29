@@ -38,11 +38,13 @@ depopts: [
 ]
 patches: [
   "docker-workaround.diff" { os = "linux" }
+  "linkflags.patch"
 ]
 synopsis: "APRON numerical abstract domain library"
 flags: light-uninstall
 extra-files: [
   "docker-workaround.diff" "md5=949015a9862a3d8ced04b04d42a4a144"
+  "linkflags.patch" "md5=24a9996a199efcc49b6e434736bf5c5e"
 ]
 url {
   src: "local/src/apron.20160125/apron-20160125.tar.gz"

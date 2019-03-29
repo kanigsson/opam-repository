@@ -1,0 +1,13 @@
+--- a/apronxx/Makefile.old	2019-03-29 12:26:37.921137913 +0900
++++ b/apronxx/Makefile	2019-03-29 12:24:02.819872287 +0900
+@@ -49,8 +49,8 @@
+  apxx_generator0_inline.hh   apxx_polka.hh              apxx_var_inline.hh		\
+  apxx_t1p.hh apxx_t1p_inline.hh	
+ 
+-LIBS = $(LDFLAGS) -lapron -lgmp -lgmpxx -lmpfr -lm
+-LIBS_DEBUG = $(LDFLAGS) -lapron_debug -lgmp -lgmpxx -lmpfr -lm
++LIBS = $(LDFLAGS) -lapron -lgmpxx -lgmp -lmpfr -lm
++LIBS_DEBUG = $(LDFLAGS) -lapron_debug -lgmpxx -lgmp -lmpfr -lm
+ 
+ ifneq ($(HAS_PPL),)
+   DEFS := $(DEFS) -DHAS_PPL
