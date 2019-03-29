@@ -79,14 +79,9 @@ def main():
     opam_init()
     opam_switch('ocaml-system.4.07.1')
 
-    # why3 deps
     opam_install_deps('why3')
-
-#    # alt-ergo deps, assuming why3 deps already installed
-#    opam_install('dune')
-#    opam_install('seq')
-#    opam_install('ocplib-simplex')
-#    opam_install('psmt2-frontend')
+    opam_install_deps('alt-ergo')
+    opam_install_deps('infer')
 
 
 
