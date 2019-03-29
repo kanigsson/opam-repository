@@ -64,6 +64,9 @@ def opam_switch(arg):
 def opam_install(arg):
     subprocess.call(['opam', 'install', '-y', arg])
 
+def opam_install_deps(arg):
+    subprocess.call(['opam', 'install', '-y', '--deps-only', arg])
+
 def main():
     parse_arguments()
     clean()
@@ -77,17 +80,13 @@ def main():
     opam_switch('ocaml-system.4.07.1')
 
     # why3 deps
-    opam_install('menhir')
-    opam_install('num')
-    opam_install('zarith')
-    opam_install('camlzip')
-    opam_install('ocamlgraph')
+    opam_install_deps('why3')
 
-    # alt-ergo deps, assuming why3 deps already installed
-    opam_install('dune')
-    opam_install('seq')
-    opam_install('ocplib-simplex')
-    opam_install('psmt2-frontend')
+#    # alt-ergo deps, assuming why3 deps already installed
+#    opam_install('dune')
+#    opam_install('seq')
+#    opam_install('ocplib-simplex')
+#    opam_install('psmt2-frontend')
 
 
 
