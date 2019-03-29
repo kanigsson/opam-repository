@@ -25,6 +25,12 @@ def parse_arguments():
             help='directory where opam and ocaml will be installed')
     args = parser.parse_args()
 
+def copy_packages():
+    """create the packages subdir from the one that need for our platform"""
+    if os.path.exists("packages"):
+        shutil.rmtree("packages")
+    shutil.copytree("x86_64-linux", "packages")
+
 def replace_urls():
     """replace local links to point to current repos"""
     matches = []
@@ -65,6 +71,7 @@ def main():
     os.environ['PATH'] = os.pathsep.join([os.path.join(args.installdir, 'bin'),
                                           os.environ['PATH']])
     os.environ['OPAMROOT'] = args.installdir
+    copy_packages()
     replace_urls()
     opam_init()
     opam_switch('ocaml-system.4.07.1')
